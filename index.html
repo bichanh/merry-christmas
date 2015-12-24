@@ -5,19 +5,48 @@
     <link rel="stylesheet" type="text/css" href="main.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="jquery.scrollify.min.js"></script>
-    <script src="snowstorm-min.js"></script>
     <script type="text/javascript" charset="utf-8" src="app.js"></script>
+    <script src="typed.js"></script>
+    <script src='snowfall.jquery.js'></script>
+    <script>
+      $(function(){
+          $(".wishes").typed({
+            strings: ["&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;&#10052;\n"+
+"|                                                            |\n"+
+"|  Bích Anh,                                                 |\n"+
+"|                                                            |\n"+
+"|  Chúc bà Noel với năm mới vui vẻ. Học giỏi hơn, hạnh phúc  |\n"+
+"|  hơn, thành công hơn, cao hơn. Bớt khùng một tí, bớt tự kỉ |\n"+
+"|  một tí, bớt béo một tí.                                   |\n"+
+"|                                                            |\n"+
+"|  Qua đó được 4 tháng rồi chắc cũng quen rồi ha, học hành   |\n"+
+"|  gì cũng nhớ nghỉ ngơi đừng để bị giống tui nha. Có gì     |\n"+
+"|  vui nhớ kể tui. Năm sau nếu được thì tui qua chỗ bà chơi  |\n"+
+"|  hen.                                                      |\n"+
+"|                                           Nhật             |\n"+
+"|                                                            |\n"+
+"+------------------------------------------------------------+\n"],
+            typeSpeed: 0,
+            showCursor: false,
+          });
+      });
+    </script>
     <script>
         $(function() {
             $.scrollify({
-                section : ".section-class-name",
+                section : ".section",
             });
         });
     </script>
     <title>Merry Christmas!</title>
 </head>
-<body>
-    <div class="section-class-name">
+<body id="gradient">
+  <script>
+    $(document).ready(function() { 
+      $(document).snowfall({deviceorientation : true, round : true, minSize: 1, maxSize:8, flakeCount : 50});
+    });
+  </script>
+  <section class="section" data-section-name="cover">
     <div class="ascii">
         <pre>
 ______________________________________________________________________
@@ -39,7 +68,7 @@ ______________________________________________________________________
     </div>
 
     <div id="outer">
-    <div id="inner" class="santa">
+      <div id="inner" class="santa">
         <pre id="content">                                             *
            .--.        *                  *                           
          *=\   \.                                        \/  \/  \/ \/
@@ -52,66 +81,68 @@ ______________________________________________________________________
            |    ||          ||    ||            A || ||     || ||     
        *   |~~~~~))   (_____||____||___)          <> <>     <> <>      *
         </pre>
+      </div>
     </div>
+
+    <div class="tree-wrapper">
+      <div class="tree">
+        <pre>
+                                   |
+                                 \ ' /
+                               -- (*) --
+                                  >*<
+                                 >0<@<
+                                >>>@<<*
+                               >@>*<0<<<
+                              >*>>@<<<@<<
+                             >@>>0<<<*<<@<
+                            >*>>0<<@<<<@<<<
+                           >@>>*<<@<>*<<0<*<
+             \*/          >0>>*<<@<>0><<*<@<<
+         ___\\U//___     >*>>@><0<<*>>@><*<0<<
+         |\\ | | \\|    >@>>0<*<0>>@<<0<<<*<@<<  
+         | \\| | _(UU)_ >((*))_>0><*<0><@<<<0<*<
+         |\ \| || / //||.*.*.*.|>>@<<*<<@>><0<<<
+         |\\_|_|&&_// ||*.*.*.*|_\\db//_               
+         """"|'.'.'.|~~|.*.*.*|     ____|_
+             |'.'.'.|   ^^^^^^|____|>>>>>>|
+             ~~~~~~~~         '""""`------'
+        </pre>
+      </div>
     </div>
-    </div>
+    <pre class="next-page">Kéo xuống đi!</pre>
+  </section>
 
     
-    <div class="section-class-name">
-        <div class="wrapper-snowman">
-            <div class="snowman">
-            <pre>
-                                 .------,
-                   .\/.          |______|
-                 _\_}{_/_       _|_Ll___|_
-                  / }{ \       [__________]          .\/.
-                   '/\'        /          \        _\_\/_/_
-                              ()  o  o    ()        / /\ \
-                               \ ~~~   .  /          '/\'
-                          _\/   \ '...'  /    \/_
-                           \\   {`------'}    //
-                            \\  /`---/',`\\  //
-                             \/'  o  | |\ \`//
-                             /'      | | \/ /\
-                __,. -- ~~ ~|    o   `\|      |~ ~~ -- . __
-                            |                 |
-                       jgs  \    o            /
-                             `._           _.'
-                                ^~- . -  ~^ 
-            </pre>
-            </div>
-        </div>
-
-        <div class="wrapper-tree">
-        <div class="tree">
-        <pre>
-                                       |
-                                     \ ' /
-                                   -- (*) --
-                                      >*<
-                                     >0<@<
-                                    >>>@<<*
-                                   >@>*<0<<<
-                                  >*>>@<<<@<<
-                                 >@>>0<<<*<<@<
-                                >*>>0<<@<<<@<<<
-                               >@>>*<<@<>*<<0<*<
-                 \*/          >0>>*<<@<>0><<*<@<<
-             ___\\U//___     >*>>@><0<<*>>@><*<0<<
-             |\\ | | \\|    >@>>0<*<0>>@<<0<<<*<@<<  
-             | \\| | _(UU)_ >((*))_>0><*<0><@<<<0<*<
-             |\ \| || / //||.*.*.*.|>>@<<*<<@>><0<<<
-        jgs  |\\_|_|&&_// ||*.*.*.*|_\\db//_               
-             """"|'.'.'.|~~|.*.*.*|     ____|_
-                 |'.'.'.|   ^^^^^^|____|>>>>>>|
-                 ~~~~~~~~         '""""`------'
-        </pre>
-        </div>
+  <section class="section page-2" data-section-name="wishes">
+    <div class="snowman-wrapper">
+        <div class="snowman">
+          <pre>
+                             .------,
+               .\/.          |______|
+             _\_}{_/_       _|_Ll___|_
+              / }{ \       [__________]          .\/.
+               '/\'        /          \        _\_\/_/_
+                          ()  o  o    ()        / /\ \
+                           \ ~~~   .  /          '/\'
+                      _\/   \ '...'  /    \/_
+                       \\   {`------'}    //
+                        \\  /`---/',`\\  //
+                         \/'  o  | |\ \`//
+                         /'      | | \/ /\
+            __,. -- ~~ ~|    o   `\|      |~ ~~ -- . __
+                        |                 |
+                   jgs  \    o            /
+                         `._           _.'
+                            ^~- . -  ~^ 
+          </pre>
         </div>
     </div>
+    <div class="wishes-wrapper">
+      <pre class="wishes">
 
-<!--     <div class="snowflake">
-        <p>&#10052;</p>
-    </div> -->
+      </pre>
+    </div>
+  </section>
 </body>
 </html>

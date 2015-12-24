@@ -1,14 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro);
 html, body {
-    background-color: #133563;
-    background-color: #841512;
-    background: linear-gradient(#133563, #841512); 
+    width: 100%;
+    /*background: linear-gradient(#133563, #841512); */
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     color: white;
     overflow: hidden;
+    padding: 0px;
+    margin: 0px;
 }
 
 pre {
@@ -26,30 +27,40 @@ pre {
     margin-left: -100%;
 }
 
-
-.wrapper-tree, .wrapper-snowman {
-    position: relative;
-    display: inline-block;
-    height: 100%;
-    vertical-align: bottom;
-    width: 0px;
+#outer {
+    width: 50%;
 }
 
-.wrapper-snowman {
-    margin-left: -20%;
-}
-
-.wrapper-tree {
-    /*margin-right: -20%;*/
-}
-
-.snowman {
-    position: absolute;
-    bottom: 0;
+.tree-wrapper {
+    width: 50%;
 }
 
 .tree {
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+.page-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.next-page {
+    text-align: center;
+}
+
+.wishes {
+    height: 310px;
+    width: 600px;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
 }
