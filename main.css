@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro);
+html, body {
+    background-color: #133563;
+    background-color: #841512;
+    background: linear-gradient(#133563, #841512); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+pre {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.ascii {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.santa {
+    margin-left: -100%;
+}
+
+
+.wrapper-tree, .wrapper-snowman {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    vertical-align: bottom;
+    width: 0px;
+}
+
+.wrapper-snowman {
+    margin-left: -20%;
+}
+
+.wrapper-tree {
+    /*margin-right: -20%;*/
+}
+
+.snowman {
+    position: absolute;
+    bottom: 0;
+}
+
+.tree {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
