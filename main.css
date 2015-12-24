@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro);
 html, body {
     width: 100%;
-    /*background: linear-gradient(#133563, #841512); */
+    background: linear-gradient(#133563, #841512); 
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,6 +14,12 @@ html, body {
 
 pre {
     font-family: 'Source Code Pro', monospace;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .ascii {
@@ -37,8 +43,8 @@ pre {
 
 .tree {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 0px;
+    right: 0px;
 }
 
 .page-2 {
@@ -50,17 +56,14 @@ pre {
 }
 
 .next-page {
+    position: absolute;
+    left: 45%;
+    right: 50%;
+    bottom: 0;
     text-align: center;
 }
 
 .wishes {
     height: 310px;
     width: 600px;
-}
-
-.typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
 }

@@ -40,15 +40,15 @@
     </script>
     <title>Merry Christmas!</title>
 </head>
-<body id="gradient">
+<body>
   <script>
     $(document).ready(function() { 
-      $(document).snowfall({deviceorientation : true, round : true, minSize: 1, maxSize:8, flakeCount : 50});
+      $(document).snowfall({round : true, minSize: 1, maxSize:8, flakeCount : 40});
     });
   </script>
   <section class="section" data-section-name="cover">
     <div class="ascii">
-        <pre>
+        <pre class="title">
 ______________________________________________________________________
 |                              _                                      |
 |        /|,/ _   _ _         / ` /_  _ .  _ _/_ _ _   _    _         |
@@ -114,7 +114,7 @@ ______________________________________________________________________
   </section>
 
     
-  <section class="section page-2" data-section-name="wishes">
+  <section class="section page-2" id="gradient" data-section-name="wishes">
     <div class="snowman-wrapper">
         <div class="snowman">
           <pre>
